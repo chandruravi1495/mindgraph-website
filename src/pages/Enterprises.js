@@ -49,14 +49,32 @@ function Enterprises() {
                                  aria-orientation="vertical">
                                 <button class="nav-heading"
                                         onClick={() => matches == false ? window.scrollTo(100, 800) : window.scrollTo(0, 0)}
+                                        id="v-pills-sustain-ai-tab" data-bs-toggle="pill" data-bs-target="#v-pills-sustain-ai"
+                                        type="button" role="tab" aria-controls="v-pills-sustain-ai" aria-selected="false">1.
+                                    SmartSustain.AI
+                                </button>
+                                <button class="nav-heading mt-4"
+                                        onClick={() => matches == false ? window.scrollTo(100, 800) : window.scrollTo(0, 0)}
+                                        id="v-pills-patient-360-tab" data-bs-toggle="pill" data-bs-target="#v-pills-patient-360"
+                                        type="button" role="tab" aria-controls="v-pills-patient-360" aria-selected="false">2.
+                                    Patient 360
+                                </button>
+                                <button class="nav-heading mt-4"
+                                        onClick={() => matches == false ? window.scrollTo(100, 800) : window.scrollTo(0, 0)}
+                                        id="v-pills-customer-dlens-tab" data-bs-toggle="pill" data-bs-target="#v-pills-customer-dlens"
+                                        type="button" role="tab" aria-controls="v-pills-customer-dlens" aria-selected="false">3.
+                                    CustomerDLens.ai 
+                                </button>
+                                <button class="nav-heading mt-4"
+                                        onClick={() => matches == false ? window.scrollTo(100, 800) : window.scrollTo(0, 0)}
                                         id="v-pills-a2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-a2"
-                                        type="button" role="tab" aria-controls="v-pills-a2" aria-selected="false">1.
+                                        type="button" role="tab" aria-controls="v-pills-a2" aria-selected="false">4.
                                     Mathops
                                 </button>
                                 <button class="nav-heading mt-4"
                                         onClick={() => matches == false ? window.scrollTo(100, 800) : window.scrollTo(0, 0)}
                                         id="v-pills-a3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-a3"
-                                        type="button" role="tab" aria-controls="v-pills-a3" aria-selected="false">2.
+                                        type="button" role="tab" aria-controls="v-pills-a3" aria-selected="false">5.
                                     Customer Success
                                 </button>
                                 <button class="nav-link nav-main-link "
@@ -74,32 +92,359 @@ function Enterprises() {
                                 <button class="nav-heading mt-4"
                                         onClick={() => matches == false ? window.scrollTo(100, 800) : window.scrollTo(0, 0)}
                                         id="v-pills-a6-tab" data-bs-toggle="pill" data-bs-target="#v-pills-a6"
-                                        type="button" role="tab" aria-controls="v-pills-a6" aria-selected="false">3.
+                                        type="button" role="tab" aria-controls="v-pills-a6" aria-selected="false">6.
                                     Blockchain/Smart Operations
                                 </button>
                                 <button class="nav-heading mt-4"
                                         onClick={() => matches == false ? window.scrollTo(100, 800) : window.scrollTo(0, 0)}
                                         id="v-pills-a7-tab" data-bs-toggle="pill" data-bs-target="#v-pills-a7"
-                                        type="button" role="tab" aria-controls="v-pills-a7" aria-selected="false">4.
+                                        type="button" role="tab" aria-controls="v-pills-a7" aria-selected="false">7.
                                     Cybersecurity
                                 </button>
                                 <button class="nav-heading mt-4"
                                         onClick={() => matches == false ? window.scrollTo(100, 800) : window.scrollTo(0, 0)}
                                         id="v-pills-a7-tab" data-bs-toggle="pill" data-bs-target="#v-pills-a8"
-                                        type="button" role="tab" aria-controls="v-pills-a8" aria-selected="false">5.
+                                        type="button" role="tab" aria-controls="v-pills-a8" aria-selected="false">8.
                                     Talent Management
                                 </button>
                                 <button class="nav-heading mt-4"
                                         onClick={() => matches == false ? window.scrollTo(100, 800) : window.scrollTo(0, 0)}
                                         id="v-pills-a9-tab" data-bs-toggle="pill" data-bs-target="#v-pills-a9"
-                                        type="button" role="tab" aria-controls="v-pills-a9" aria-selected="false">6.
+                                        type="button" role="tab" aria-controls="v-pills-a9" aria-selected="false">9.
                                     Mindgraph Academy
                                 </button>
                             </div>
                         </div>
-                        <div className="col-lg-8 nav-main">
+                        <div className="col-lg-8 nav-main">                                
                             <div class="tab-content" id="v-pills-tabContent ">
-                                <div class="tab-pane fade show active" id="v-pills-a2" role="tabpanel"
+                                <div class="tab-pane fade show active" id="v-pills-sustain-ai" role="tabpanel"
+                                    aria-labelledby="v-pills-home-tab">
+                                    <div className="">
+                                        <h1>SmartSustain.AI</h1>
+                                        <h5 className="border-left">
+                                        Comprehensive SmartSustain.AI made Simple
+                                        </h5>
+                                        <div>
+                                            <p>The SmartSustain.AI is an advanced platform designed to streamline Environmental, Social, and Governance (ESG) reporting for organizations of all sizes. With fully customizable modules and the ability to include additional features, this tool evolves into a comprehensive ESG digital data center tailored to your needs.</p>
+                                        </div>
+                                        <h5 className="border-left">
+                                        Complete Customization for Your Organization
+                                        </h5>
+                                        <div>
+                                            <p>The SmartSustain.AI is entirely customizable, allowing clients to configure it to meet their specific ESG reporting requirements. It can be adopted as your regular ESG reporting platform or expanded with additional modules to transform it into a complete ESG digital data center.</p>
+                                        </div>
+                                        <h5 className="border-left">
+                                        Advanced Reporting Capabilities
+                                        </h5>
+                                        <h6 className='clr-secondary'>
+                                            Data Management
+                                        </h6>
+                                        <div>
+                                            <p>Assign specific roles (e.g., data provider, reviewer, approver) within the organization, ensuring data accuracy at every step.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                            Supplier and Stakeholder Tracking
+                                        </h6>
+                                        <div>
+                                            <p>Manage and track Scope 1, Scope 2 & Scope 3 emissions efficiently by extending data access to suppliers and distributors.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                            Proof Documentation
+                                        </h6>
+                                        <div>
+                                            <p>Upload supporting documents to ensure robust ESG assurance during audits and compliance checks.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                            Bulk Data Upload
+                                        </h6>
+                                        <div>
+                                            <p>Directly upload Excel datasets to streamline data entry and calculations.</p>
+                                        </div>
+                                        <h5 className="border-left">
+                                        Key Features
+                                        </h5>
+                                        <h5 className="">
+                                        Environmental Module
+                                        </h5>
+                                        <h6 className='clr-secondary'>
+                                        Carbon Footprint Calculation
+                                        </h6>
+                                        <div>
+                                            <p>Calculate Scope 1, 2, and 3 emissions effortlessly using customizable emission factor databases.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                        Water and Effluent Management
+                                        </h6>
+                                        <div>
+                                            <p>Monitor water withdrawal, consumption, and effluent generation across all facilities.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                            Waste Management
+                                        </h6>
+                                        <div>
+                                            <p>Track waste generation and disposal with ease, ensuring adherence to compliance requirements.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                        Monthly Tracking
+                                        </h6>
+                                        <div>
+                                            <p>Analyze environmental data month-by-month for precise insights and timely actions.</p>
+                                        </div>
+                                        <h5 className="">
+                                        Social Module
+                                        </h5>
+                                        <h6 className='clr-secondary'>
+                                        Employee Demographics
+                                        </h6>
+                                        <div>
+                                            <p>Record and analyze workforce diversity, equity, and inclusion metrics.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                        Safety Performance Tracking
+                                        </h6>
+                                        <div>
+                                            <p>Monitor and improve workplace safety through detailed reporting.</p>
+                                        </div>
+                                        <h5 className="">
+                                        Governance Module
+                                        </h5>
+                                        <h6 className='clr-secondary'>
+                                        Leadership Transparency
+                                        </h6>
+                                        <div>
+                                            <p>Maintain records of board and management composition.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                        Governance Compliance
+                                        </h6>
+                                        <div>
+                                            <p>Ensure alignment with governance standards through a dedicated compliance report.</p>
+                                        </div>
+                                        
+                                        <h5 className="">
+                                        ESG Maturity Assessment Module
+                                        </h5>
+                                        <div>
+                                            <p>Gauge your organization’s ESG readiness and identify improvement areas.</p>
+                                        </div>
+                                        <h5 className="">
+                                        Peer Benchmarking
+                                        </h5>
+                                        <div>
+                                            <p>Compare your ESG performance with industry peers for competitive insights</p>
+                                        </div>
+                                        <h5 className="">
+                                        ISSB ESG Gap Assessment Module
+                                        </h5>
+                                        <div>
+                                            <p>Identify gaps in your reporting to align with ISSB standards.</p>
+                                        </div>
+                                        <h5 className="">
+                                        GRI Reporting Compliance Module
+                                        </h5>
+                                        <div>
+                                            <p>Simplify compliance with the GRI framework through an intuitive interface.</p>
+                                        </div>
+                                        <h5 className="border-left">
+                                        Why Choose Our ESG Reporting Tool?
+                                        </h5>
+                                        <h6 className='clr-secondary'>
+                                        Customizable Frameworks
+                                        </h6>
+                                        <div>
+                                            <p>Select from global standards such as GRI, ISSB, and more to suit your reporting needs.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                        Scalable for Organizations
+                                        </h6>
+                                        <div>
+                                            <p>Ideal for multi-facility organizations, enabling seamless coordination across locations.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                        Secure & Reliable
+                                        </h6>
+                                        <div>
+                                            <p>Admins maintain full control over user access and framework selection, ensuring data security.</p>
+                                        </div>
+                                        <h6 className='clr-secondary'>
+                                        User-Friendly Interface
+                                        </h6>
+                                        <div>
+                                            <p>Navigate and manage complex ESG data with an intuitive and easy-to-use dashboard.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="v-pills-patient-360" role="tabpanel"
+                                    aria-labelledby="v-pills-home-tab">
+                                    <div className="">
+                                        <h1>Patient 360</h1>
+                                        <h5 className="border-left">Your One-Stop Solution for Enhanced Patient Care</h5>
+                                        <div>
+                                            <p>Patient360 is a cutting-edge Customer Data Platform (CDP) tailored for the healthcare industry, offering an integrated view of patients and enabling seamless doctor-patient communication. Designed to streamline operations, enhance patient engagement, and deliver personalized care, Patient360 transforms how healthcare providers manage their services.</p>
+                                        </div>
+                                        <h5 className="border-left">Key Features</h5>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>Doctor-Patient Communication</p>
+                                            <ul>
+                                                <li>Secure, HIPAA-compliant messaging and chatbot support enable real-time doctor-patient engagement.</li>
+                                                <li>In-platform video consultations for remote care.</li>
+                                            </ul>
+                                        </div>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>Appointment Booking</p>
+                                            <ul>
+                                                <li>Easy scheduling allows patients to manage appointments effortlessly.</li>
+                                                <li>Automated SMS and email reminders to reduce no-shows.</li>
+                                            </ul>
+                                        </div>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>Notification Management</p>
+                                            <ul>
+                                                <li>Multi-channel alerts via WhatsApp, SMS, and email keep patients informed on appointments, health updates, and critical lab results.</li>
+                                            </ul>
+                                        </div>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>Analytics & Insights</p>
+                                            <ul>
+                                                <li>Health tracking and trends help providers identify patterns, enhance engagement, and make informed decisions.</li>
+                                            </ul>
+                                        </div>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>Data Aggregation & Patient Profiles</p>
+                                            <ul>
+                                                <li>A unified patient view integrates history, prescriptions, and preferences with real-time EMR/EHR sync for accuracy.</li>
+                                            </ul>
+                                        </div>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>Compliance and Security</p>
+                                            <ul>
+                                                <li>Strong encryption and role-based access safeguard patient data across all channels.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 className='border-left'>Use of Patient 360</h5>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>For Healthcare Providers</p>
+                                            <ul>
+                                                <li>Access to real-time patient data enables doctors and nurses to make timely, informed decisions based on the latest health metrics and trends.</li>
+                                                <li>Proactive health monitoring allows providers to track vitals and risk scores continuously, intervening early when fluctuations occur.</li>
+                                            </ul>
+                                        </div>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>For Healthcare Administrators</p>
+                                            <ul>
+                                                <li>Efficiently manage appointments and resources, ensuring smooth operations without scheduling conflicts.</li>
+                                                <li>Automated reminders and alerts improve adherence to treatment plans, streamlining care coordination and enhancing patient outcomes.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 className='border-left'>Why Choose Patient 360?</h5>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>Unified Patient View</p>
+                                            <ul>
+                                                <li>Consolidate data from multiple sources to create a 360-degree view of each patient, enabling informed decision-making and better care coordination</li>
+                                            </ul>
+                                        </div>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>Efficient Communication</p>
+                                            <ul>
+                                                <li>Facilitate real-time communication between patients and healthcare providers through platforms like WhatsApp, email, and SMS</li>
+                                            </ul>
+                                        </div>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>Appointment Management</p>
+                                            <ul>
+                                                <li>Simplify scheduling with a user-friendly booking system, reducing administrative burdens and enhancing patient satisfaction.</li>
+                                            </ul>
+                                        </div>
+                                        <div className='ul-container'>
+                                            <p className='clr-secondary'>Secure & Compliant</p>
+                                            <ul>
+                                                <li>Built on Microsoft Azure, Patient360 ensures top-notch data security and compliance with regional healthcare regulations.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 className='border-left'>Built for Today, Ready for Tomorrow</h5>
+                                        <div className=''>
+                                            <p className=''>With Patient360, healthcare organizations can embrace a future-ready platform designed to grow with their needs. Whether you're looking to improve patient satisfaction, optimize operations, or enhance care delivery, Patient360 is your trusted partner in transforming healthcare experiences.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="v-pills-customer-dlens" role="tabpanel"
+                                    aria-labelledby="v-pills-home-tab">
+                                    <div className="">
+                                        <h1>CustomerDLens.ai</h1>
+                                        <h5 className="border-left">Transforming Data into Decisions</h5>
+                                        <h5>
+                                        Seamlessly transform your data with Mindgraph’s CustomerDLens.ai Agent Framework
+                                        </h5>
+                                        <div>
+                                            <p>Experience the power of a 360° customer view with Mindgraph’s CustomerDLens.ai Agent Framework, your ultimate data-driven decision-making platform. From seamless integration to actionable insights, transform your data into business intelligence like never before.</p>
+                                        </div>
+                                        <h5 className='border-left'>Data Ingestion</h5>
+                                        <div className='ul-container'>
+                                            <p>Seamlessly extract data from diverse sources with no-code integration for faster onboarding. Real-time tracking ensures visibility into workflows, accelerates insights, and maintains data quality.</p>
+                                            <ul>
+                                                <li><span className='clr-secondary'>No-Code Integration:&nbsp;</span>Onboard data effortlessly from databases, APIs, files, and more.</li>
+                                                <li><span className='clr-secondary'>Real-Time Monitoring:&nbsp;</span>Track pipelines and ensure data quality with cleansing and validation.</li>
+                                                <li><span className='clr-secondary'>Flexible Formats:&nbsp;</span>Handle structured, semi-structured, and unstructured data with ease.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 className='border-left'>Customer Experience Data Fabric</h5>
+                                        <div className='ul-container'>
+                                            <p>Unify customer data with a Single Customer View Dashboard for advanced segmentation and insights.The Blackbox Algorithm ensures seamless data transformation, empowering smarter, data-driven decisions.</p>
+                                            <ul>
+                                                <li><span className='clr-secondary'>Single Customer View:&nbsp;</span>Visual dashboards for advanced segmentation and decision-making.</li>
+                                                <li><span className='clr-secondary'>Blackbox Algorithm:&nbsp;</span>Effortlessly transform and unify data.</li>
+                                                <li><span className='clr-secondary'>Export Capabilities:&nbsp;</span>Seamlessly share data across systems.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 className='border-left'>Data Monitoring</h5>
+                                        <div className='ul-container'>
+                                            <p>Get end-to-end pipeline visibility with realtime metrics and proactive issue resolution. Drill down into data stages to identify bottlenecks and track success rates effortlessly.</p>
+                                            <ul>
+                                                <li><span className='clr-secondary'>Pipeline Insights:&nbsp;</span>Real-time metrics to track every data stage.</li>
+                                                <li><span className='clr-secondary'>Proactive Resolutions:&nbsp;</span>Resolutions: Root cause analysis and trend filters for better problem-solving.</li>
+                                                <li><span className='clr-secondary'>Trend Analysis:&nbsp;</span>Calendar-based views for performance monitoring.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 className='border-left'>Data Quality Dashboard</h5>
+                                        <div className='ul-container'>
+                                            <p>Ensure data accuracy, integrity, and consistency with our robust Data Quality Dashboard. It proactively detects anomalies, validates data, and ensures compliance with quality metrics!</p>
+                                            <ul>
+                                                <li><span className='clr-secondary'>Anomaly Detection:&nbsp;</span>Monitor nulls, duplicates, and schema mismatches.</li>
+                                                <li><span className='clr-secondary'>Historical Tracking:&nbsp;</span>Track improvements over time.</li>
+                                                <li><span className='clr-secondary'>Automated Alerts:&nbsp;</span>Resolve issues faster with instant notifications.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 className='border-left'>Slice and Dice Algorithm</h5>
+                                        <div className='ul-container'>
+                                            <p>Unlock actionable insights with dynamic data segmentation and multidimensional analysis. Customize your views and uncover hidden patterns to enhance customer targeting and optimize decision-making.</p>
+                                            <ul>
+                                                <li><span className='clr-secondary'>Dynamic Segmentation: :&nbsp;</span>Slice data for granular insights.</li>
+                                                <li><span className='clr-secondary'>Advanced Filtering:&nbsp;</span>Customize views for precision.</li>
+                                                <li><span className='clr-secondary'>Multidimensional Analysis:&nbsp;</span>Unlock better targeting and decision-making.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 className='border-left'>GEN-AI</h5>
+                                        <div className='ul-container'>
+                                            <p>GEN-AI provides context-aware insights and real-time recommendations. Easily query, analyze, and interpret data conversationally with personalized responses tailored to your business needs.</p>
+                                            <ul>
+                                                <li><span className='clr-secondary'>Context-Aware Insights:&nbsp;</span>Personalized recommendations and real-time trends.</li>
+                                                <li><span className='clr-secondary'>Conversational Analysis:&nbsp;</span>Simplify reporting with easy queries.</li>
+                                                <li><span className='clr-secondary'>Actionable Results:&nbsp;</span>Turn insights into outcomes instantly.</li>
+                                            </ul>
+                                        </div>
+
+                                        <h5 className='border-left'>Why Choose Mindgraph’s CustomerDLens.ai Agent Framework?</h5>
+                                        <div className='ul-container'>
+                                            <ul>
+                                                <li><span className='clr-secondary'>Customizable Dashboards:&nbsp;</span>Tailor visualizations to meet specific business goals.</li>
+                                                <li><span className='clr-secondary'>Scalable Solutions:&nbsp;</span>Perfect for businesses of all sizes, from startups to enterprises.</li>
+                                                <li><span className='clr-secondary'>Seamless Integration:&nbsp;</span>Plug-and-play connectors for hassle-free onboarding.</li>
+                                                <li><span className='clr-secondary'>Real-Time Insights:&nbsp;</span>Make decisions faster with up-to-the-minute data.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade show" id="v-pills-a2" role="tabpanel"
                                      aria-labelledby="v-pills-home-tab">
                                     <div className="">
                                         <h1>Mathops</h1>

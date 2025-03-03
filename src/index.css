@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.clr-secondary{
+  color: #0059a8 !important;
+  font-weight: 400 !important;
+  font-size: 1.2rem !important;
+  margin-bottom: 4px !important;
+}
+
+.ul-container li{
+  list-style: disc;
+}
